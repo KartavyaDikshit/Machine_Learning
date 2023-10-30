@@ -15,6 +15,30 @@ train_test_split is used to split the data into training and testing sets.
 LinearRegression is an algorithm from scikit-learn used for linear regression modeling.
 mean_squared_error is used to calculate the Mean Squared Error, a measure of the model's performance.
 
-stock symbol "AAPL" for Apple Inc. store it in the DataFrame:data \
+stock symbol "AAPL" for Apple Inc. store it in the DataFrame:data 
+select the "Close" column of the DataFrame to focus on the closing stock prices
+new column "Next_Close" by shifting the "Close" column one day forward to represent the next day's closing price therfore the last day will have NaN in nextclose
+remove rows with missing values (NaN) using dropna() 
 
+dataset into two subsets: a training set and a testing set
+train your model on one part of the data and evaluate its performance on another part
 
+X represents the features or independent variable "Close" 
+y represents the target variable or dependent variable "Next_Close"
+
+test_size=0.2 indicates that you want to allocate 20% of your data to the testing set rest 80% training
+
+generates:
+X_train: The features for the training set.
+X_test: The features for the testing set.
+y_train: The target variable for the training set.
+y_test: The target variable for the testing set.
+
+X_train and y_train to train your machine learning model and then evaluate its performance using X_test and y_test
+
+"Answer to the Ultimate Question of Life, the Universe, and Everything.": random_state=42 
+
+train_test_split randomly shuffles and splits the data set and then trains it so it is suggested to have a random state for output reproduciblity
+
+LinearRegression is an iported class and "method" is the object of the class 
+furthermore fit method 
