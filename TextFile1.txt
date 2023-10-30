@@ -1,0 +1,9 @@
+# Stock price prediction project in Python using the pandas, numpy, and scikit-learn libraries
+# Linear regression model to predict stock prices
+# Steps:
+# Data Collection
+# Data Preprocessing
+# Splitting Data
+# Model Selection and Training
+# Model Evaluation
+# Model Testing
