@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 
 # Data Collection
-symbol = "AAPL" #"AAPL" for Apple Inc.
+symbol = "AAPL" 
 start_date = "2020-01-01"
 end_date = "2021-12-31"
 data = yf.download(symbol, start=start_date, end=end_date)

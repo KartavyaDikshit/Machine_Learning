@@ -6,7 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{037603FB-0F00-4060-AA0F-8F60B73387A1}"
 	ProjectSection(SolutionItems) = preProject
 		Test_1.py = Test_1.py
-		TextFile1.txt = TextFile1.txt
+		CodeExplained.txt = CodeExplained.txt
 	EndProjectSection
 EndProject
 Global
